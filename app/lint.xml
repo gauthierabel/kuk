@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/favorite.png" />
+        <ignore path="src/main/res/drawable/favorite_btn.png" />
+        <ignore path="src/main/res/drawable/favorite_btn_selected.png" />
+        <ignore path="src/main/res/drawable/kuk_small.png" />
+        <ignore path="src/main/res/drawable/menu_fav.png" />
+        <ignore path="src/main/res/drawable/menu_recent.png" />
+        <ignore path="src/main/res/drawable/menu_search.png" />
+        <ignore path="src/main/res/drawable/random.png" />
+        <ignore path="src/main/res/drawable/search.png" />
+        <ignore path="src/main/res/drawable/white_gradient.png" />
+    </issue>
+</lint>

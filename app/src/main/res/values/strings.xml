@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">kuk</string>
+    <string name="title_activity_main_drawer">kuk</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Recently Viewed</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_search">Search</string>
+
+    <string name="kuk_version">Easy Cooking - kuk v1.0</string>
+    <string name="kuk_email">gauthier.abel@edu.hefr.ch</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="recipe_elt_title">Recipe Title</string>
+    <string name="recipe_elt_preview_alt">Recipe preview image</string>
+    <string name="btn_search_name">Search by Name</string>
+    <string name="btn_search_categories">Categories</string>
+
+    <string name="recipe_details_title">Details</string>
+    <string name="recipe_ingredients_title">Ingredients</string>
+    <string name="recipe_instruction_title">Instructions</string>
+    <string name="search_name_post_btn">Search</string>
+
+    <string name="txt_name_field_hint">Name…</string>
+    <string name="btn_fav_list_hint">Favorite recipes list</string>
+    <string name="btn_search_hint">Search</string>
+    <string name="btn_rand_hint">Random recipe</string>
+    <string name="btn_add_to_fav">Add recipe to favorites</string>
+    <string name="query_error">Sorry, this query hasn\'t returned any results.</string>
+    <string name="btn_video">Recipe Video on YouTube</string>
+
+    <string name="desc_category">"Category: "</string>
+    <string name="desc_area">"Area: "</string>
+    <string name="desc_tags">"Tags: "</string>
+    <string name="recipe_img_alt">Recipe Image</string>
+    <string name="recent_empty">You haven\'t viewed any recipe yet.</string>
+</resources>

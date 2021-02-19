@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="home"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_recipes_recent"
+        android:name="mobiledev.heia.ch.kuk.ui.recipe_list.RecipeListFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="recent_recipes_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gradient"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:cropToPadding="true"
+        android:longClickable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btn_fav"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounded_btn_right"
+        android:contentDescription="@string/btn_fav_list_hint"
+        android:elevation="8dp"
+        android:paddingStart="22dp"
+        android:paddingTop="22dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/favorite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gradient" />
+
+    <ImageButton
+        android:id="@+id/btn_rand"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounded_btn_left"
+        android:contentDescription="@string/btn_rand_hint"
+        android:elevation="8dp"
+        android:paddingStart="12dp"
+        android:paddingTop="22dp"
+        android:paddingEnd="22dp"
+        android:paddingBottom="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/random"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_search"
+        android:layout_width="156dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounded_btn"
+        android:contentDescription="@string/btn_search_hint"
+        android:elevation="8dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="4dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gradient"
+        app:layout_constraintStart_toStartOf="@+id/gradient" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
